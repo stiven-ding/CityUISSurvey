@@ -9,6 +9,16 @@ body {
     margin: 1.5cm;
 }
 
+button, .routerContentStory-moreInfo, .bottomReportSuspiciousness, .riskSection {
+    display: none;
+}
+
+.overviewSection-headerTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em 0 0.5em 0;
+}
+
 .photo {
 width: 100%;
 height: auto;
@@ -92913,7 +92923,7 @@ input[type="text"].atomic-text-year-input:focus:-ms-input-placeholder {
 .rte__content p {
     font-size: 1.6rem;
     line-height: 2.9rem;
-    margin-bottom: 5px
+    margin-bottom: 15px
 }
 
 .rte__content ul {
